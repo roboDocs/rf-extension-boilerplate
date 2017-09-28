@@ -7,14 +7,17 @@ from mojo.extensions import ExtensionBundle
 # get current folder
 basePath = os.path.dirname(__file__)
 
-# get parent folder for all extension files
-libPath = os.path.join(basePath, 'myExtension')
+# parent folder for all extension files
+extensionPath = os.path.join(basePath, 'myExtension')
+
+# folder with python files
+libPath = os.path.join(extensionPath, 'lib')
 
 # folder with html files
-htmlPath = os.path.join(libPath, 'html')
+htmlPath = os.path.join(extensionPath, 'html')
 
 # folder with resources
-resourcesPath = os.path.join(libPath, 'resources')
+resourcesPath = os.path.join(extensionPath, 'resources')
 
 # boolean indicating if only .pyc should be included
 pycOnly = False
@@ -48,10 +51,10 @@ B.version = '0.1'
 B.launchAtStartUp = 1
 
 # script to be executed when RF starts
-B.mainScript = 'lib/hello.py'
+B.mainScript = 'hello.py'
 
 # script to be executed when the extension is unistalled
-B.uninstallScript = 'lib/goodbye.py'
+B.uninstallScript = 'goodbye.py'
 
 # does the extension contain html help files? 1=Yes, 0=No
 B.infoDictionary["html"] = 1
@@ -63,16 +66,26 @@ B.requiresVersionMinor = '5'
 # scripts which should appear in Extensions menu
 B.addToMenu = [
     {
-        'path' : 'lib/doSomething.py',
+        'path' : 'doSomething.py',
         'preferredName': 'do something',
         'shortKey' : '',
     },
     {
-        'path' : 'lib/doSomethingElse.py',
+        'path' : 'doSomethingElse.py',
         'preferredName': 'do something else',
         'shortKey' : '',
     }
 ]
+
+# license for the extension
+# see http://choosealicense.com/ for more open-source licenses
+B.license = 'license.txt'
+
+# info for Mechanic extension manager
+B.infoDictionary['com.robofontmechanic.mechanic'] = {
+    'summary': 'A boilerplate extension which serves as starting point for creating your own extensions.',
+    'repositoryURL': 'http://github.com/gferreira/rf-extension-boilerplate/',
+}
 
 # compile and save the extension bundle
 print 'building extension...',
