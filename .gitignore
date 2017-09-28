@@ -1,1 +1,2 @@
-.roboFontExt
+*.roboFontExt
+*.pyc
