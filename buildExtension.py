@@ -1,7 +1,6 @@
 '''build RoboFont Extension'''
 
 import os
-from AppKit import NSImage
 from mojo.extensions import ExtensionBundle
 
 # get current folder
@@ -18,6 +17,11 @@ htmlPath = os.path.join(extensionPath, 'html')
 
 # folder with resources
 resourcesPath = os.path.join(extensionPath, 'resources')
+
+# load license text from file
+# see http://choosealicense.com/ for more open-source licenses
+licensePath = os.path.join(basePath, 'license.txt')
+license = file.open(licensePath).read()
 
 # boolean indicating if only .pyc should be included
 pycOnly = False
@@ -42,7 +46,7 @@ B.developerURL = 'http://youtu.be/akbflkF_1zY'
 
 # extension icon
 imagePath = os.path.join(resourcesPath, 'icon.png')
-B.icon = NSImage.alloc().initWithContentsOfFile_(imagePath)
+B.icon = imagePath # RF2: a path or NSImage object
 
 # version of the extension
 B.version = '0.1'
@@ -78,14 +82,11 @@ B.addToMenu = [
 ]
 
 # license for the extension
-# see http://choosealicense.com/ for more open-source licenses
-B.license = 'license.txt'
+B.license = license
 
 # info for Mechanic extension manager
-B.infoDictionary['com.robofontmechanic.mechanic'] = {
-    'summary': 'A boilerplate extension which serves as starting point for creating your own extensions.',
-    'repositoryURL': 'http://github.com/gferreira/rf-extension-boilerplate/',
-}
+B.repositoryURL = 'http://github.com/robodocs/rf-extension-boilerplate/'
+B.summary = 'A boilerplate extension which serves as starting point for creating your own extensions.'
 
 # compile and save the extension bundle
 print 'building extension...',
