@@ -51,8 +51,8 @@ B.icon = imagePath # RF2: a path or NSImage object
 # version of the extension
 B.version = '0.1'
 
-# should the extension be launched at start-up? 1=Yes, 0=No
-B.launchAtStartUp = 1
+# should the extension be launched at start-up?
+B.launchAtStartUp = True
 
 # script to be executed when RF starts
 B.mainScript = 'hello.py'
@@ -60,8 +60,8 @@ B.mainScript = 'hello.py'
 # script to be executed when the extension is unistalled
 B.uninstallScript = 'goodbye.py'
 
-# does the extension contain html help files? 1=Yes, 0=No
-B.infoDictionary["html"] = 1
+# does the extension contain html help files?
+B.html = True
 
 # minimum RoboFont version required for this extension
 B.requiresVersionMajor = '1'
