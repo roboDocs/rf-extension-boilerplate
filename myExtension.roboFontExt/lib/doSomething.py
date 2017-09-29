@@ -1,0 +1,1 @@
+print 'I will not buy this record, it is scratched.'

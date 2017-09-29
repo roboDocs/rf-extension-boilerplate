@@ -21,7 +21,7 @@ resourcesPath = os.path.join(extensionPath, 'resources')
 # load license text from file
 # see http://choosealicense.com/ for more open-source licenses
 licensePath = os.path.join(basePath, 'license.txt')
-license = file.open(licensePath).read()
+license = open(licensePath).read()
 
 # boolean indicating if only .pyc should be included
 pycOnly = False
