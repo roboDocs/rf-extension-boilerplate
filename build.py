@@ -1,4 +1,4 @@
-'''build RoboFont Extension'''
+'''build RoboFont Extension from source files'''
 
 import os
 from mojo.extensions import ExtensionBundle
