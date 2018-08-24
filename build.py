@@ -44,12 +44,12 @@ B.developer = 'Python Monty'
 # URL of the developer
 B.developerURL = 'http://youtu.be/akbflkF_1zY'
 
-# extension icon
+# extension icon (file path or NSImage)
 imagePath = os.path.join(resourcesPath, 'icon.png')
-B.icon = imagePath # RF3: a path or NSImage object
+B.icon = imagePath
 
 # version of the extension
-B.version = '0.2'
+B.version = '0.3.1'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
@@ -58,7 +58,7 @@ B.launchAtStartUp = True
 B.mainScript = 'hello.py'
 
 # script to be executed when the extension is unistalled
-B.uninstallScript = 'goodbye.py'
+# B.uninstallScript = 'goodbye.py'
 
 # does the extension contain html help files?
 B.html = True
@@ -78,7 +78,7 @@ B.addToMenu = [
         'path' : 'doSomethingElse.py',
         'preferredName': 'do something else',
         'shortKey' : '',
-    }    
+    }
 ]
 
 # license for the extension
@@ -86,8 +86,9 @@ with open(licensePath) as license:
     B.license = license.read()
 
 # info for Mechanic extension manager
-B.repositoryURL = 'http://github.com/robodocs/rf-extension-boilerplate/'
-B.summary = 'A boilerplate extension which serves as starting point for creating your own extensions.'
+# [DEPRECATED in Mechanic2]
+# B.repositoryURL = 'http://github.com/robodocs/rf-extension-boilerplate/'
+# B.summary = 'A boilerplate extension which serves as starting point for creating your own extensions.'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')

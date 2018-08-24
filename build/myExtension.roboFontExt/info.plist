@@ -21,13 +21,6 @@
 			<string></string>
 		</dict>
 	</array>
-	<key>com.robofontmechanic.Mechanic</key>
-	<dict>
-		<key>repository</key>
-		<string>http://github.com/robodocs/rf-extension-boilerplate/</string>
-		<key>summary</key>
-		<string>A boilerplate extension which serves as starting point for creating your own extensions.</string>
-	</dict>
 	<key>developer</key>
 	<string>Python Monty</string>
 	<key>developerURL</key>
@@ -45,10 +38,8 @@
 	<key>requiresVersionMinor</key>
 	<string>5</string>
 	<key>timeStamp</key>
-	<real>1519502922.71223</real>
-	<key>uninstallScript</key>
-	<string>goodbye.py</string>
+	<real>1535112742.3416572</real>
 	<key>version</key>
-	<string>0.2</string>
+	<string>0.2.1</string>
 </dict>
 </plist>

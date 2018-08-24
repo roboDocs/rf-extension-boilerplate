@@ -1,1 +1,2 @@
-print('goodbye!')
+from mojo.UI import Message
+Message('Good bye!')
