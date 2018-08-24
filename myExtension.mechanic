@@ -7,4 +7,4 @@ developerURL: https://github.com/roboDocs
 tags: [ demo ]
 infoPath: http://github.com/roboDocs/rf-extension-boilerplate/blob/master/build/myExtension.roboFontExt/info.plist
 zipPath: http://github.com/roboDocs/rf-extension-boilerplate/archive/master.zip
-icon: http://github.com/roboDocs/rf-extension-boilerplate/build/myExtension.roboFontExt/resources/icon.png
+icon: https://github.com/roboDocs/rf-extension-boilerplate/raw/master/build/myExtension.roboFontExt/resources/icon.png
