@@ -38,10 +38,8 @@
 	<key>requiresVersionMinor</key>
 	<string>5</string>
 	<key>timeStamp</key>
-	<real>1535138982.5908201</real>
-	<key>uninstallScript</key>
-	<string>goodbye.py</string>
+	<real>1542642551.9463549</real>
 	<key>version</key>
-	<string>0.2.1</string>
+	<string>0.2.2</string>
 </dict>
 </plist>
