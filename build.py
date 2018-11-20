@@ -39,10 +39,10 @@ B = ExtensionBundle()
 B.name = "myExtension"
 
 # name of the developer
-B.developer = 'Python Monty'
+B.developer = 'RoboDocs'
 
 # URL of the developer
-B.developerURL = 'http://youtu.be/akbflkF_1zY'
+B.developerURL = 'http://github.com/roboDocs'
 
 # extension icon (file path or NSImage)
 imagePath = os.path.join(resourcesPath, 'icon.png')
@@ -56,9 +56,6 @@ B.launchAtStartUp = True
 
 # script to be executed when RF starts
 B.mainScript = 'hello.py'
-
-# script to be executed when the extension is unistalled
-# B.uninstallScript = 'goodbye.py'
 
 # does the extension contain html help files?
 B.html = True
@@ -84,11 +81,6 @@ B.addToMenu = [
 # license for the extension
 with open(licensePath) as license:
     B.license = license.read()
-
-# info for Mechanic extension manager
-# [DEPRECATED in Mechanic2]
-# B.repositoryURL = 'http://github.com/robodocs/rf-extension-boilerplate/'
-# B.summary = 'A boilerplate extension which serves as starting point for creating your own extensions.'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')
