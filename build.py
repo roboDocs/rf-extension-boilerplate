@@ -49,7 +49,7 @@ imagePath = os.path.join(resourcesPath, 'icon.png')
 B.icon = imagePath
 
 # version of the extension
-B.version = '0.2.2'
+B.version = '0.2.3'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
