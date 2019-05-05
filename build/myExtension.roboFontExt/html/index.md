@@ -3,6 +3,10 @@ Boilerplate Extension
 
 A RoboFont extension which doesn’t do anything useful.
 
+[TOC]
+
+- - -
+
 ## Introduction
 
 **Monty Python** (also known as **The Pythons**) were a British surreal comedy group who created their sketch comedy show *Monty Python's Flying Circus*, which first aired on the BBC in 1969. A self-contained comedy team responsible for both writing and performing their work, the Pythons had creative control which allowed them to experiment with form and content, discarding rules of television comedy.
@@ -15,12 +19,11 @@ The film opens with a [credit sequence](http://youtu.be/djKPvXDwXcs) that become
 
 ### Code blocks
 
-	'''a function to calculate fibonacci numbers'''
-	
-	from math import sqrt
-	
-	def F(n):
-	    return ((1 + sqrt(5)) ** n - (1 - sqrt(5)) ** n) / (2 ** n * sqrt(5))
+    import comMyDomainMyExtensionMyModule
+    print(comMyDomainMyExtensionMyModule)
+
+    from comMyDomainMyExtensionMyModule.test import hello
+    hello()
 
 ### Lists
 
@@ -34,7 +37,7 @@ Here is an ordered list:
 
 1. Vivamus vehicula aliquet augue.
 2. Fusce et ligula imperdiet, imperdiet massa viverra, cursus magna.
-3. Donec vel iaculis justo.
+3. Cras sagittis sodales mi, sit amet aliquet nisl lacinia nec.
 
 ### Tables
 
