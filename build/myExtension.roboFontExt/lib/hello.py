@@ -1,2 +1,2 @@
-from mojo.UI import Message
-Message('Welcome to RoboFont!')
+from mojo.UI import PostBannerNotification
+PostBannerNotification('Hello World', informativeText='Welcome to RoboFont!')

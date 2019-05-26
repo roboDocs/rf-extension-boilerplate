@@ -82,6 +82,9 @@ B.addToMenu = [
 with open(licensePath) as license:
     B.license = license.read()
 
+# expiration date for trial extensions
+B.expireDate = '2019-05-27'
+
 # compile and save the extension bundle
 print('building extension...', end=' ')
 B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath, pycOnly=pycOnly)

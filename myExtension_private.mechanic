@@ -1,0 +1,10 @@
+extensionName: myExtension
+description:   A boilerplate extension which serves as starting point for creating your own extensions.
+repository:    https://gitlab.com/hipertipo/boilerplate-extension
+extensionPath: build/myExtension.roboFontExt
+developer:     RoboDocs
+developerURL:  http://github.com/roboDocs
+tags:          [test]
+infoPath:      https://gitlab.com/api/v4/projects/12246750/repository/files/build/myExtension.roboFontExt%2Finfo.plist/raw?ref=master&private_token=gcgd2pR_2GrTy_CYp8a3
+icon:          https://gitlab.com/api/v4/projects/12246750/repository/files/myExtensionMechanicIcon.png/raw?ref=master&private_token=gcgd2pR_2GrTy_CYp8a3
+zipPath:       https://gitlab.com/api/v4/projects/12246750/repository/archive.zip?sha=master&private_token=gcgd2pR_2GrTy_CYp8a3
