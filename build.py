@@ -23,7 +23,7 @@ resourcesPath = os.path.join(sourcePath, 'resources')
 licensePath = os.path.join(basePath, 'license.txt')
 
 # boolean indicating if only .pyc should be included
-pycOnly = True
+pycOnly = False
 
 # name of the compiled extension file
 extensionFile = 'myExtension.roboFontExt'
@@ -49,7 +49,7 @@ imagePath = os.path.join(resourcesPath, 'icon.png')
 B.icon = imagePath
 
 # version of the extension
-B.version = '0.2.2'
+B.version = '0.2.3'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
@@ -81,6 +81,9 @@ B.addToMenu = [
 # license for the extension
 with open(licensePath) as license:
     B.license = license.read()
+
+# expiration date for trial extensions
+B.expireDate = '2019-05-27'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')

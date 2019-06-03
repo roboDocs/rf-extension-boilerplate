@@ -22,9 +22,11 @@
 		</dict>
 	</array>
 	<key>developer</key>
-	<string>Python Monty</string>
+	<string>RoboDocs</string>
 	<key>developerURL</key>
-	<string>http://youtu.be/akbflkF_1zY</string>
+	<string>http://github.com/roboDocs</string>
+	<key>expireDate</key>
+	<string>2019-05-27</string>
 	<key>html</key>
 	<true/>
 	<key>launchAtStartUp</key>
@@ -38,8 +40,8 @@
 	<key>requiresVersionMinor</key>
 	<string>5</string>
 	<key>timeStamp</key>
-	<real>1542642919.1631451</real>
+	<real>1558914978.2892859</real>
 	<key>version</key>
-	<string>0.2.2</string>
+	<string>0.2.3</string>
 </dict>
 </plist>
