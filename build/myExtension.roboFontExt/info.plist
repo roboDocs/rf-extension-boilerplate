@@ -26,7 +26,7 @@
 	<key>developerURL</key>
 	<string>http://github.com/roboDocs</string>
 	<key>expireDate</key>
-	<string>2019-05-27</string>
+	<string>2019-12-31</string>
 	<key>html</key>
 	<true/>
 	<key>launchAtStartUp</key>
@@ -36,11 +36,11 @@
 	<key>name</key>
 	<string>myExtension</string>
 	<key>requiresVersionMajor</key>
-	<string>1</string>
+	<string>3</string>
 	<key>requiresVersionMinor</key>
-	<string>5</string>
+	<string>3</string>
 	<key>timeStamp</key>
-	<real>1558914978.2892859</real>
+	<real>1570799735.3892801</real>
 	<key>version</key>
 	<string>0.2.3</string>
 </dict>

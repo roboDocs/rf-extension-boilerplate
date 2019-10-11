@@ -15,15 +15,15 @@ libPath = os.path.join(sourcePath, 'code')
 # folder with html files
 htmlPath = os.path.join(sourcePath, 'documentation')
 
-# folder with resources
+# folder with resources (icons etc)
 resourcesPath = os.path.join(sourcePath, 'resources')
 
 # load license text from file
-# see http://choosealicense.com/ for more open-source licenses
+# see choosealicense.com for more open-source licenses
 licensePath = os.path.join(basePath, 'license.txt')
 
 # boolean indicating if only .pyc should be included
-pycOnly = False
+pycOnly = True
 
 # name of the compiled extension file
 extensionFile = 'myExtension.roboFontExt'
@@ -61,8 +61,8 @@ B.mainScript = 'hello.py'
 B.html = True
 
 # minimum RoboFont version required for this extension
-B.requiresVersionMajor = '1'
-B.requiresVersionMinor = '5'
+B.requiresVersionMajor = '3'
+B.requiresVersionMinor = '3'
 
 # scripts which should appear in Extensions menu
 B.addToMenu = [
@@ -83,11 +83,11 @@ with open(licensePath) as license:
     B.license = license.read()
 
 # expiration date for trial extensions
-B.expireDate = '2019-05-27'
+B.expireDate = '2019-12-31'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')
-B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath, pycOnly=pycOnly)
+B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath, pycOnly=["3.6", "3.7"])
 print('done!')
 
 # check for problems in the compiled extension
