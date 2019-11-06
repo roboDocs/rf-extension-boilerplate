@@ -4,6 +4,4 @@ This is a dummy RoboFont extension to demonstrate the [Extension Folder Structur
 
 [Extension Folder Structure]: http://robofont.com/documentation/building-tools/extensions/extension-file-spec/#extension-folder-structure
 
-If you are starting your own extension, you can use this example as a template.
-
-see [Creating a repository from a template](https://help.github.com/en/articles/creating-a-repository-from-a-template)
+If you are starting your own extension, you can use this repository as a [template](https://help.github.com/en/articles/creating-a-repository-from-a-template)!
