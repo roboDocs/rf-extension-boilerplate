@@ -1,4 +1,4 @@
-extensionName: myExtension
+extensionName: myExtension (GitHub)
 repository: http://github.com/robodocs/rf-extension-boilerplate
 extensionPath: build/myExtension.roboFontExt
 description: A boilerplate extension which serves as starting point for creating your own extensions.
