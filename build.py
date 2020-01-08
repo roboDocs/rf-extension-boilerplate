@@ -69,12 +69,12 @@ B.addToMenu = [
     {
         'path' : 'doSomething.py',
         'preferredName': 'do something',
-        'shortKey' : '',
+        'shortKey' : ',',
     },
     {
         'path' : 'doSomethingElse.py',
         'preferredName': 'do something else',
-        'shortKey' : '',
+        'shortKey' : 'o',
     }
 ]
 

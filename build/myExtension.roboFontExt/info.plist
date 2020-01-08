@@ -10,7 +10,7 @@
 			<key>preferredName</key>
 			<string>do something</string>
 			<key>shortKey</key>
-			<string></string>
+			<string> </string>
 		</dict>
 		<dict>
 			<key>path</key>
@@ -18,7 +18,7 @@
 			<key>preferredName</key>
 			<string>do something else</string>
 			<key>shortKey</key>
-			<string></string>
+			<string>o</string>
 		</dict>
 	</array>
 	<key>developer</key>
@@ -40,7 +40,7 @@
 	<key>requiresVersionMinor</key>
 	<string>3</string>
 	<key>timeStamp</key>
-	<real>1573059620.1015439</real>
+	<real>1576838832.09273</real>
 	<key>version</key>
 	<string>0.2.3</string>
 </dict>
