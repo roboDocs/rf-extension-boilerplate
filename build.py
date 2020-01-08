@@ -83,7 +83,7 @@ with open(licensePath) as license:
     B.license = license.read()
 
 # expiration date for trial extensions
-B.expireDate = '2019-12-31'
+B.expireDate = '2020-12-31'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')
