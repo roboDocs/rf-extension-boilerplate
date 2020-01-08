@@ -25,8 +25,6 @@
 	<string>RoboDocs</string>
 	<key>developerURL</key>
 	<string>http://github.com/roboDocs</string>
-	<key>expireDate</key>
-	<string>2020-12-31</string>
 	<key>html</key>
 	<true/>
 	<key>launchAtStartUp</key>
@@ -40,7 +38,7 @@
 	<key>requiresVersionMinor</key>
 	<string>3</string>
 	<key>timeStamp</key>
-	<real>1578485916.3512719</real>
+	<real>1578514454.205066</real>
 	<key>version</key>
 	<string>0.2.3</string>
 </dict>
