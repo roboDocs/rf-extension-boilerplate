@@ -1,2 +1,3 @@
-from mojo.UI import PostBannerNotification
-PostBannerNotification('Hello World', informativeText='Welcome to RoboFont!')
+from comMyDomainMyExtensionMyModule import hello
+
+hello()
