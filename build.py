@@ -23,7 +23,7 @@ resourcesPath = os.path.join(sourcePath, 'resources')
 licensePath = os.path.join(basePath, 'license.txt')
 
 # boolean indicating if only .pyc should be included
-pycOnly = ["3.6", "3.7"]
+pycOnly = True # ["3.6", "3.7"]
 
 # name of the compiled extension file
 extensionFile = 'myExtension.roboFontExt'
