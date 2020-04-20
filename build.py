@@ -22,6 +22,9 @@ resourcesPath = os.path.join(sourcePath, 'resources')
 # see choosealicense.com for more open-source licenses
 licensePath = os.path.join(basePath, 'license.txt')
 
+# required extensions
+requirementsPath = os.path.join(basePath, 'requirements.txt')
+
 # boolean indicating if only .pyc should be included
 pycOnly = True # ["3.6", "3.7"]
 
@@ -81,6 +84,10 @@ B.addToMenu = [
 # license for the extension
 with open(licensePath) as license:
     B.license = license.read()
+
+# required extensions
+with open(requirementsPath) as requirements:
+    B.requirements = requirements.read()
 
 # expiration date for trial extensions
 B.expireDate = '2020-12-31'
