@@ -1,6 +1,7 @@
 '''build RoboFont Extension'''
 
 import os
+from AppKit import NSCommandKeyMask, NSAlternateKeyMask, NSShiftKeyMask
 from mojo.extensions import ExtensionBundle
 
 # get current folder
@@ -52,7 +53,7 @@ imagePath = os.path.join(resourcesPath, 'icon.png')
 B.icon = imagePath
 
 # version of the extension
-B.version = '0.2.5'
+B.version = '0.2.6'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
@@ -72,12 +73,12 @@ B.addToMenu = [
     {
         'path' : 'doSomething.py',
         'preferredName': 'do something',
-        'shortKey' : ',',
+        'shortKey' : (NSCommandKeyMask | NSShiftKeyMask, 'b'),
     },
     {
         'path' : 'doSomethingElse.py',
         'preferredName': 'do something else',
-        'shortKey' : 'o',
+        'shortKey' : (NSAlternateKeyMask, 'o'),
     }
 ]
 
