@@ -42,11 +42,11 @@
 	<key>name</key>
 	<string>myExtension</string>
 	<key>requiresVersionMajor</key>
-	<string>3</string>
+	<string>4</string>
 	<key>requiresVersionMinor</key>
-	<string>3</string>
+	<string>0</string>
 	<key>timeStamp</key>
-	<real>1600090203.5971148</real>
+	<real>1638366053.720922</real>
 	<key>version</key>
 	<string>0.2.6</string>
 </dict>
