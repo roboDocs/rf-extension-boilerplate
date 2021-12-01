@@ -2,18 +2,16 @@
 
 A dummy RoboFont extension to demonstrate the [Extension Folder Structure].
 
-Updated for [RoboFont 3.3]. Previous versions available as tagged releases.
+Updated for [RoboFont 4.0]. Previous versions available as tagged releases.
 
-Includes boilerplate [.mechanic] files for extensions hosted on [GitHub], [GitLab] and [BitBucket].
+Includes a boilerplate [.mechanic] file for extensions hosted on [GitHub]
 
 - - -
 
 note for GitHub users: If you are starting your own extension, you can use this repository as a [template].
 
-[Extension Folder Structure]: http://robofont.com/documentation/building-tools/extensions/extension-file-spec/#extension-folder-structure
-[.mechanic]: https://robofont.com/documentation/extensions/extension-item-format/
-[RoboFont 3.3]: https://forum.robofont.com/topic/725/robofont-3-3
+[Extension Folder Structure]: https://robofont.com/documentation/reference/extensions/extension-file-spec/#extension-folder-structure
+[.mechanic]: https://robofont.com/documentation/reference/extensions/extension-item-format/
+[RoboFont 4.0]: https://forum.robofont.com/topic/804/robofont-four
 [template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [GitHub]: https://github.com/robodocs/rf-extension-boilerplate
-[GitLab]: https://gitlab.com/robodocs/rf-boilerplate-extension/
-[BitBucket]: https://bitbucket.org/robodocs/rf-boilerplate-extension/

@@ -27,7 +27,7 @@ licensePath = os.path.join(basePath, 'license.txt')
 requirementsPath = os.path.join(basePath, 'requirements.txt')
 
 # boolean indicating if only .pyc should be included
-pycOnly = True # ["3.6", "3.7"]
+pycOnly = True    # ["3.6", "3.7"]
 
 # name of the compiled extension file
 extensionFile = 'myExtension.roboFontExt'
@@ -65,20 +65,20 @@ B.mainScript = 'hello.py'
 B.html = True
 
 # minimum RoboFont version required for this extension
-B.requiresVersionMajor = '3'
-B.requiresVersionMinor = '3'
+B.requiresVersionMajor = '4'
+B.requiresVersionMinor = '0'
 
 # scripts which should appear in Extensions menu
 B.addToMenu = [
     {
-        'path' : 'doSomething.py',
+        'path':          'doSomething.py',
         'preferredName': 'do something',
-        'shortKey' : (NSCommandKeyMask | NSShiftKeyMask, 'b'),
+        'shortKey':      (NSCommandKeyMask | NSShiftKeyMask, 'b'),
     },
     {
-        'path' : 'doSomethingElse.py',
+        'path':          'doSomethingElse.py',
         'preferredName': 'do something else',
-        'shortKey' : (NSAlternateKeyMask, 'o'),
+        'shortKey':      (NSAlternateKeyMask, 'o'),
     }
 ]
 
