@@ -5,6 +5,4 @@ description: A boilerplate extension which serves as starting point for creating
 developer: RoboDocs
 developerURL: https://github.com/roboDocs
 tags: [ demo ]
-infoPath: http://github.com/roboDocs/rf-extension-boilerplate/blob/master/build/myExtension.roboFontExt/info.plist
-zipPath: http://github.com/roboDocs/rf-extension-boilerplate/archive/master.zip
-icon: https://github.com/roboDocs/rf-extension-boilerplate/raw/master/myExtensionMechanicIcon.png
+icon: https://raw.githubusercontent.com/roboDocs/rf-extension-boilerplate/master/myExtensionMechanicIcon.png
