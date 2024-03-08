@@ -7,14 +7,10 @@ version: 0.2.6
 addToMenu:
 - path: doSomething.py
   preferredName: do something
-  shortKey: !!python/tuple
-  - 1179648
-  - b
+  shortKey: [1179648, b]
 - path: doSomethingElse.py
   preferredName: do something else
-  shortKey: !!python/tuple
-  - 524288
-  - o
+  shortKey: [524288, o]
 html: true
 timeStamp: 1638366053.720922
 requiresVersionMajor: '4'
