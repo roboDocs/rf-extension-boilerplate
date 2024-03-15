@@ -1,8 +1,10 @@
 extensionName: myExtension (GitHub)
-repository: http://github.com/robodocs/rf-extension-boilerplate
-extensionPath: build/myExtension.roboFontExt
 description: A boilerplate extension which serves as starting point for creating your own extensions.
 developer: RoboDocs
 developerURL: https://github.com/roboDocs
-tags: [ demo ]
+repository: http://github.com/robodocs/rf-extension-boilerplate
+extensionPath: myExtension.roboFontExt
 icon: https://raw.githubusercontent.com/roboDocs/rf-extension-boilerplate/master/myExtensionMechanicIcon.png
+infoPath: https://raw.githubusercontent.com/robodocs/rf-extension-boilerplate/HEAD/info.yaml
+zipPath: https://github.com/robodocs/rf-extension-boilerplate/releases/latest/download/Arrange Windows.roboFontExt.zip
+tags: [ demo ]
