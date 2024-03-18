@@ -6,6 +6,8 @@ Updated for [RoboFont 4.0]. Previous versions available as tagged releases.
 
 Includes a boilerplate [.mechanic] file for extensions hosted on [GitHub]
 
+The extension is set for automated release handling with GitHub Action using the [RoboFont-Extension-action](https://github.com/typemytype/roboFont-Extension-action).
+
 - - -
 
 note for GitHub users: If you are starting your own extension, you can use this repository as a [template].
