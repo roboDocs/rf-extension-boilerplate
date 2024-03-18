@@ -6,5 +6,5 @@ repository: http://github.com/robodocs/rf-extension-boilerplate
 extensionPath: myExtension.roboFontExt
 icon: https://raw.githubusercontent.com/roboDocs/rf-extension-boilerplate/master/myExtensionMechanicIcon.png
 infoPath: https://raw.githubusercontent.com/robodocs/rf-extension-boilerplate/HEAD/info.yaml
-zipPath: https://github.com/robodocs/rf-extension-boilerplate/releases/latest/download/Arrange Windows.roboFontExt.zip
+zipPath: https://github.com/robodocs/rf-extension-boilerplate/releases/latest/download/myExtension.roboFontExt.zip
 tags: [ demo ]
